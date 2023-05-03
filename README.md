@@ -39,6 +39,6 @@ The average packet count in subflows is forward packets is 35 and 6 in backward 
 The average packet variance in forward packets is around 13, and they are relatively close in variance for both benign and malicious traffic. In backwards packets,  the average is 20 and it is 89.810% less for benign than malicious. 
 
 ## CNN Tester
-Mark u useless baboon
+Mark u lovely boy
 
 ## Conclusion 
