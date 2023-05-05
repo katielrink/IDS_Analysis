@@ -7,16 +7,16 @@ To determine what patterns can be seen in network traffic, we are analyzing Febr
 In our analysis, we had the following findings : 
 
 
-1) 
+1) The average packet rate per second is higher for benign is higher than malicious.
 
 
-2)
+2) 
 
 
-3) 
+3) Malicious Traffic holds more Idle time
 
 
-4)
+4) The average subflow is significantly more in malicious packets with forward packets, but less in backwards packets. 
 
 
 5) The most common destination port for non-benign events was port 80 (with 188660 attacks), followed by port 500 (with 130 attacks).
@@ -33,7 +33,7 @@ The average forward packets in a connection is 6 packets, and the average backwa
 The average forward packet rate per second is around 26,795, and the average backward packet rate per second is around 3,056. When comparing benign and non-benign traffic, we see that the average packet rate per second is higher for benign is higher than malicious. 
 
 ## Finding 2  Analysis - Flags
-Rate of Occurances
+The most common flags are ACK Flags, and they are most common in malicious traffic. 
 
 ## Finding 3  Analysis - Duration
 The average flow duration is around 12,991,373 millaseconds, and in comparison, the benign traffic lasts 4,999,788.76% longer on average than malicious traffic. 
@@ -41,11 +41,11 @@ The average flow duration is around 12,991,373 millaseconds, and in comparison, 
 The average idle time in a connection is 5,669,832 millaseconds. The average benign idle time is 1,949.23% longer for that of malicious connections. 
 
 ## Finding 4 Analysis - Features
-Down/Up Ratio
-
 The average packet count in subflows is forward packets is 35 and 6 in backward packets. The average subflow is significantly more in malicious packets with forward packets, but less in backwards packets. 
 
 The average packet variance in forward packets is around 13, and they are relatively close in variance for both benign and malicious traffic. In backwards packets,  the average is 20 and it is 89.810% less for benign than malicious. 
+
+
 ## Finding 5 Analysis - Destination Port
 The two most common destination ports for non-benign events were port 80 and port 500. We further broke down the destination ports by attack category. We found that the most common ports for brute force attacks specifically included 80, 500, 67, 0, and 31808. It should be noted that 67 and 31808 had very little occurences still. When it came to the rest of the categories (DDOS attacks and SQL injections), the only port with occurences was port 80.
 
