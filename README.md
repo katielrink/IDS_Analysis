@@ -10,19 +10,16 @@ In our analysis, we had the following findings :
 1) The average packet rate per second is higher for benign is higher than malicious.
 
 
-2) 
+2) Malicious Traffic holds more Idle time
 
 
-3) Malicious Traffic holds more Idle time
+3) The average subflow is significantly more in malicious packets with forward packets, but less in backwards packets. 
 
 
-4) The average subflow is significantly more in malicious packets with forward packets, but less in backwards packets. 
+4) The most common destination port for non-benign events was port 80 (with 188660 attacks), followed by port 500 (with 130 attacks).
 
 
-5) The most common destination port for non-benign events was port 80 (with 188660 attacks), followed by port 500 (with 130 attacks).
-
-
-6) The most common time for non-benign events to occur was around 2:00 a.m. and 10:00 a.m.
+5) The most common time for non-benign events to occur was around 2:00 a.m. and 10:00 a.m.
 
 
 ## Finding 1 Analysis - Packets
