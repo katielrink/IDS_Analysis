@@ -1,4 +1,5 @@
 # IDS Analysis
+By Katie Rink, Sydney Gibbs, Mark Brubaker
 
 ## Executive Summary
 To determine what patterns can be seen in network traffic, we are analyzing February 20, 21, 22, and 23 of 2018. This dataset contains the network traffic from the University of New Brunswick servers with details about said traffic and a label showing if it was malicious traffic or not. To get the dataset go to https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csvLinks. Our goal was to be able to determine how malicious traffic compares to benign traffic, so as to be able to later recognize malicious traffic. 
