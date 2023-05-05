@@ -48,8 +48,3 @@ The two most common destination ports for non-benign events were port 80 and por
 
 ## Finding 6 Analysis - Timestamps
 The two most common times for non-benign attacks to occurr happened around 2:00 a.m. and 10:00 a.m. We further broke down timestamps for non-benign attacks by attack category. Brute Froce -Web attacks tended to take place between 10:00 a.m. and 11:30 a.m., while Brute Force -XSS attacks tended to take place between 1:00 a.m. and 2:30 a.m. SQL Injection attacks tended to take place around 2:45 a.m. In terms of the DDOS attack categories, the DDOS attack-HOIC category tended to take place between 2:10 a.m. and 2:15 a.m., while the DDOS attack-LOIC-HTTP and DDOS attack-LOIC-UDP categories tended to take place between 10:00 a.m. and 10:45 a.m.
-
-## Convolutional Neural Network
-It needed too much memory and took too many tears 🥲
-
-## Conclusion 
